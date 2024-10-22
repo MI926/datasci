@@ -1,0 +1,50 @@
+{
+  "build": "h5ad3122_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+  "constrains": [
+    "expat 2.6.3.*"
+  ],
+  "depends": [
+    "libgcc >=13"
+  ],
+  "extracted_package_dir": "/home/mani/miniforge3/pkgs/libexpat-2.6.3-h5ad3122_0",
+  "files": [
+    "lib/libexpat.so.1",
+    "lib/libexpat.so.1.9.3"
+  ],
+  "fn": "libexpat-2.6.3-h5ad3122_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/mani/miniforge3/pkgs/libexpat-2.6.3-h5ad3122_0",
+    "type": 1
+  },
+  "md5": "1d2b842bb76e268625e8ee8d0a9fe8c3",
+  "name": "libexpat",
+  "package_tarball_full_path": "/home/mani/miniforge3/pkgs/libexpat-2.6.3-h5ad3122_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libexpat.so.1",
+        "path_type": "softlink",
+        "sha256": "b8f227b8a7a72dc6ac5c1f0625c0c361c4f20c805df16bfa20fd132014ba64fb",
+        "size_in_bytes": 216216
+      },
+      {
+        "_path": "lib/libexpat.so.1.9.3",
+        "path_type": "hardlink",
+        "sha256": "b8f227b8a7a72dc6ac5c1f0625c0c361c4f20c805df16bfa20fd132014ba64fb",
+        "sha256_in_prefix": "b8f227b8a7a72dc6ac5c1f0625c0c361c4f20c805df16bfa20fd132014ba64fb",
+        "size_in_bytes": 216216
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "02341c9c35128055fd404dfe675832b80f2bf9dbb99539457652c11c06e52757",
+  "size": 72342,
+  "subdir": "linux-aarch64",
+  "timestamp": 1725568840000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libexpat-2.6.3-h5ad3122_0.conda",
+  "version": "2.6.3"
+}

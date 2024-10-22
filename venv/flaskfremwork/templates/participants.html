@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Flask and SQLite </title> 
+	</head> 
+	<style> 
+		table, th, td { 
+		border:1px solid black; 
+		} 
+		</style> 
+	<body> 
+		<table style="width:100%"> 
+			<tr> 
+			<th>Name</th> 
+			<th>Email</th> 
+			<th>City</th> 
+			<th>Country</th> 
+			<th>Phone Number</th> 
+			</tr> 
+			{%for participant in data%} 
+			<tr> 
+				<td>{{participant[0]}}</td> 
+				<td>{{participant[1]}}</td> 
+				<td>{{participant[2]}}</td> 
+				<td>{{participant[3]}}</td> 
+				<td>{{participant[4]}}</td> 
+				<td>        <button class="post-btn" data-name="{{participant[1]}}">I'm a button</button>
+				</td>
+				</tr> 
+			{%endfor%} 
+		</table>
+        <form action="/participants" method="POST">
+            <label for="email">Enter Email to Delete:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Delete</button>
+        </form>
+        <form action="/join">
+            <button>for add participantws</button>
+        </form>
+		<form action="/join" method="POST"> 
+			<label>Enter Name:</label> 
+			<input type="name" name="name" placeholder="Enter your name" required><br/> 
+			<label>Enter Email:</label> 
+			<input type="email" name="email" placeholder="Enter your email" required><br/> 
+			<label>Enter City:</label> 
+			<input type="name" name="city" placeholder="Enter your City name" required><br/> 
+			<label>Enter Country:</label> 
+			<input type="name" name="country" placeholder="Enter the Country name" required><br/> 
+			<label>Enter phone num:</label> 
+			<input type="name" name="phone" placeholder="Your Phone Number" required><br/> 
+			<input type = "submit" value = "submit"/><br/> 
+		</form> 
+		<script>
+
+			// Attach click event listeners to all buttons with class 'post-btn'
+			document.querySelectorAll('.post-btn').forEach(button => {
+				button.addEventListener('click', async (event) => {
+					event.preventDefault(); // Prevent default action
+					
+					// Get the name from the data attribute
+					const email = button.getAttribute('data-name'); // Change 'name' to 'email' for clarity
+					console.log('Button clicked. Email:', email); // Debugging: Log the clicked button's email
+					
+					const formData = new FormData();
+					formData.append('email', email); // Append the email to the FormData
+
+					// Create a new XMLHttpRequest
+					var xhr = new XMLHttpRequest();
+					xhr.open('POST', '/deltest', true); // Replace with your actual endpoint
+
+					xhr.onreadystatechange = function () {
+						if (xhr.readyState === XMLHttpRequest.DONE) {
+							if (xhr.status === 200) {
+								console.log('Email sent successfully:', xhr.responseText);
+								location.reload();
+							} else {
+								console.error('Error sending email:', xhr.status);
+							}
+						}
+					};
+
+					// Send the form data
+					xhr.send(formData);
+				});
+			});
+		</script>
+	</body> 
+</html> 

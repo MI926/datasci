@@ -1,0 +1,11 @@
+prefix=/home/mani/Downloads/datasci/venv
+exec_prefix=/home/mani/Downloads/datasci/venv
+libdir=/home/mani/Downloads/datasci/venv/lib
+includedir=/home/mani/Downloads/datasci/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

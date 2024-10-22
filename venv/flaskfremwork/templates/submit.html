@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+           Contact us Form
+        </div>
+        <form action="/submit1" method="post">
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" id="name" name="name" required>
+                 <div class="underline"></div>
+                 <label for="">Name</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required id="Science" name="Science">
+                 <div class="underline"></div>
+                 <label for="">Maths Marks</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required id="ds" name="ds">
+                 <div class="underline"></div>
+                 <label for="">Data Science Marks</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required id="stat" name="stat">
+                 <div class="underline"></div>
+                 <label for="">Statstics Marks</label>
+              </div>
+           </div>
+           <div class="form-row">
+           <div class="input-data textarea">
+              <textarea rows="8" cols="80" required></textarea>
+              <br />
+              <div class="underline"></div>
+              <label for="">Write your message</label>
+              <br />
+              <div class="form-row submit-btn">
+                 <div class="input-data">
+                    <div class="inner"></div>
+                    <input type="submit" value="submit">
+                 </div>
+              </div>
+        </form>
+    </div>
+</body>
+</html>

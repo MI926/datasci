@@ -1,0 +1,120 @@
+{
+  "build": "he277a41_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+  "constrains": [
+    "libgcc-ng ==14.2.0 *_1",
+    "libgomp 14.2.0 he277a41_1"
+  ],
+  "depends": [
+    "_openmp_mutex >=4.5"
+  ],
+  "extracted_package_dir": "/home/mani/miniforge3/pkgs/libgcc-14.2.0-he277a41_1",
+  "files": [
+    "lib/libatomic.so",
+    "lib/libatomic.so.1",
+    "lib/libatomic.so.1.2.0",
+    "lib/libgcc_s.so",
+    "lib/libgcc_s.so.1",
+    "lib/libitm.so",
+    "lib/libitm.so.1",
+    "lib/libitm.so.1.0.0",
+    "share/info/libgomp.info",
+    "share/info/libquadmath.info",
+    "share/licenses/gcc-libs/RUNTIME.LIBRARY.EXCEPTION"
+  ],
+  "fn": "libgcc-14.2.0-he277a41_1.conda",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "link": {
+    "source": "/home/mani/miniforge3/pkgs/libgcc-14.2.0-he277a41_1",
+    "type": 1
+  },
+  "md5": "511b511c5445e324066c3377481bcab8",
+  "name": "libgcc",
+  "package_tarball_full_path": "/home/mani/miniforge3/pkgs/libgcc-14.2.0-he277a41_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libatomic.so",
+        "path_type": "softlink",
+        "sha256": "c7a4213538e9870a2c169ad27fa84725444396503938ab946dd6d66ce321d6ab",
+        "size_in_bytes": 231320
+      },
+      {
+        "_path": "lib/libatomic.so.1",
+        "path_type": "softlink",
+        "sha256": "c7a4213538e9870a2c169ad27fa84725444396503938ab946dd6d66ce321d6ab",
+        "size_in_bytes": 231320
+      },
+      {
+        "_path": "lib/libatomic.so.1.2.0",
+        "path_type": "hardlink",
+        "sha256": "c7a4213538e9870a2c169ad27fa84725444396503938ab946dd6d66ce321d6ab",
+        "sha256_in_prefix": "c7a4213538e9870a2c169ad27fa84725444396503938ab946dd6d66ce321d6ab",
+        "size_in_bytes": 231320
+      },
+      {
+        "_path": "lib/libgcc_s.so",
+        "path_type": "hardlink",
+        "sha256": "69a56a9993b7729b29b274e65016031c81f2397f176ed5ad44d59bd50425e0bd",
+        "sha256_in_prefix": "69a56a9993b7729b29b274e65016031c81f2397f176ed5ad44d59bd50425e0bd",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/libgcc_s.so.1",
+        "path_type": "hardlink",
+        "sha256": "ebd526bd18e4f93197c8d7f1fa1c8cf9466c7af594680824a80d89911527072d",
+        "sha256_in_prefix": "ebd526bd18e4f93197c8d7f1fa1c8cf9466c7af594680824a80d89911527072d",
+        "size_in_bytes": 591680
+      },
+      {
+        "_path": "lib/libitm.so",
+        "path_type": "softlink",
+        "sha256": "aa06c58dd148aa2fd23b42e6367eab44fc4cbfe0bbe054eb9a2d982bc009aa0a",
+        "size_in_bytes": 797784
+      },
+      {
+        "_path": "lib/libitm.so.1",
+        "path_type": "softlink",
+        "sha256": "aa06c58dd148aa2fd23b42e6367eab44fc4cbfe0bbe054eb9a2d982bc009aa0a",
+        "size_in_bytes": 797784
+      },
+      {
+        "_path": "lib/libitm.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "aa06c58dd148aa2fd23b42e6367eab44fc4cbfe0bbe054eb9a2d982bc009aa0a",
+        "sha256_in_prefix": "aa06c58dd148aa2fd23b42e6367eab44fc4cbfe0bbe054eb9a2d982bc009aa0a",
+        "size_in_bytes": 797784
+      },
+      {
+        "_path": "share/info/libgomp.info",
+        "path_type": "hardlink",
+        "sha256": "8fa6c469e99f83f3aca2177dd0c2b3c25801cf22ca3e25f858800c756cb7ba50",
+        "sha256_in_prefix": "8fa6c469e99f83f3aca2177dd0c2b3c25801cf22ca3e25f858800c756cb7ba50",
+        "size_in_bytes": 326907
+      },
+      {
+        "_path": "share/info/libquadmath.info",
+        "path_type": "hardlink",
+        "sha256": "5e1c488da2087dab83f574153673f3875c73adc8e11c917142c9d5f7de8462d6",
+        "sha256_in_prefix": "5e1c488da2087dab83f574153673f3875c73adc8e11c917142c9d5f7de8462d6",
+        "size_in_bytes": 36620
+      },
+      {
+        "_path": "share/licenses/gcc-libs/RUNTIME.LIBRARY.EXCEPTION",
+        "path_type": "hardlink",
+        "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+        "size_in_bytes": 3324
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5d56757ccad208c79214395b00d006d8d18929a4ba49c47bd9460789a7620943",
+  "size": 535243,
+  "subdir": "linux-aarch64",
+  "timestamp": 1729089435000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libgcc-14.2.0-he277a41_1.conda",
+  "version": "14.2.0"
+}

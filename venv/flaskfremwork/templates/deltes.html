@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Rendering buttons dynamically with participant data -->
+    {% for participant in data %} 
+        <button class="post-btn" data-name="{{participant[1]}}">I'm a button</button>
+    {% endfor %}
+
+    <script>
+        // Attach click event listeners to all buttons with class 'post-btn'
+        document.querySelectorAll('.post-btn').forEach(button => {
+            button.addEventListener('click', async (event) => {
+                event.preventDefault(); // Prevent default action
+                
+                // Get the name from the data attribute
+                const email = button.getAttribute('data-name'); // Change 'name' to 'email' for clarity
+                console.log('Button clicked. Email:', email); // Debugging: Log the clicked button's email
+                
+                const formData = new FormData();
+                formData.append('email', email); // Append the email to the FormData
+
+                // Create a new XMLHttpRequest
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', '/your-post-endpoint', true); // Replace with your actual endpoint
+
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === XMLHttpRequest.DONE) {
+                        if (xhr.status === 200) {
+                            console.log('Email sent successfully:', xhr.responseText);
+                        } else {
+                            console.error('Error sending email:', xhr.status);
+                        }
+                    }
+                };
+
+                // Send the form data
+                xhr.send(formData);
+            });
+        });
+
+        // // Attach click event listeners to all buttons with class 'post-btn'
+        // document.querySelectorAll('.post-btn').forEach(button => {
+        //     button.addEventListener('click', async (event) => {
+        //         event.preventDefault(); // Prevent default action
+                
+        //         // Get the name from the data attribute
+        //         const name = button.getAttribute('data-name');
+        //         console.log('Button clicked. Name:', name); // Debugging: Log the clicked button's name
+                
+        //         // Define the new product object
+        //         const newProduct = {
+                
+        //             email: name
+                    
+        //         };
+
+        //         try {
+        //             // Make a POST request to add a new product
+        //             const response = await fetch('/deltest', {
+        //                 method: 'POST',
+        //                 headers: {
+        //                     'Content-Type': 'application/json; charset=utf-8'
+        //                 },
+        //                 body: JSON.stringify(newProduct)
+        //             });
+
+        //             console.log('status:', response.status); // Log the status of the response
+
+        //             if (response.ok) {
+        //                 const result = await response.json();
+        //                 console.log('Response received:', result); // Log the successful response
+        //             } else {
+        //                 console.error('Failed to fetch. Status:', response.status); // Log the error status
+        //             }
+        //         } catch (err) {
+        //             console.error('Error:', err); // Catch and log any errors
+        //         }
+        //     });
+        // });
+    </script>
+
+</body>
+</html>

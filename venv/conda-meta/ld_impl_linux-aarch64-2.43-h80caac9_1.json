@@ -1,0 +1,62 @@
+{
+  "build": "h80caac9_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+  "constrains": [
+    "binutils_impl_linux-aarch64 2.43"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/home/mani/miniforge3/pkgs/ld_impl_linux-aarch64-2.43-h80caac9_1",
+  "files": [
+    "aarch64-conda-linux-gnu/bin/ld",
+    "aarch64-conda_cos7-linux-gnu/bin/ld",
+    "bin/aarch64-conda-linux-gnu-ld",
+    "bin/aarch64-conda_cos7-linux-gnu-ld"
+  ],
+  "fn": "ld_impl_linux-aarch64-2.43-h80caac9_1.conda",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/home/mani/miniforge3/pkgs/ld_impl_linux-aarch64-2.43-h80caac9_1",
+    "type": 1
+  },
+  "md5": "5019b8e4dd2433395270cc0838ad4065",
+  "name": "ld_impl_linux-aarch64",
+  "package_tarball_full_path": "/home/mani/miniforge3/pkgs/ld_impl_linux-aarch64-2.43-h80caac9_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "aarch64-conda-linux-gnu/bin/ld",
+        "path_type": "softlink",
+        "sha256": "0e222df1b52feea1bb1cb5df74acc720565d063a64229eda36767bb9da6f7994",
+        "size_in_bytes": 4666888
+      },
+      {
+        "_path": "aarch64-conda_cos7-linux-gnu/bin/ld",
+        "path_type": "softlink",
+        "sha256": "0e222df1b52feea1bb1cb5df74acc720565d063a64229eda36767bb9da6f7994",
+        "size_in_bytes": 4666888
+      },
+      {
+        "_path": "bin/aarch64-conda-linux-gnu-ld",
+        "path_type": "hardlink",
+        "sha256": "0e222df1b52feea1bb1cb5df74acc720565d063a64229eda36767bb9da6f7994",
+        "sha256_in_prefix": "0e222df1b52feea1bb1cb5df74acc720565d063a64229eda36767bb9da6f7994",
+        "size_in_bytes": 4666888
+      },
+      {
+        "_path": "bin/aarch64-conda_cos7-linux-gnu-ld",
+        "path_type": "softlink",
+        "sha256": "0e222df1b52feea1bb1cb5df74acc720565d063a64229eda36767bb9da6f7994",
+        "size_in_bytes": 4666888
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cc4ad280a52e6815c0b26d785f6c2e205646c72fb01f418883f8df266d3c12f1",
+  "size": 698534,
+  "subdir": "linux-aarch64",
+  "timestamp": 1727304686000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/ld_impl_linux-aarch64-2.43-h80caac9_1.conda",
+  "version": "2.43"
+}

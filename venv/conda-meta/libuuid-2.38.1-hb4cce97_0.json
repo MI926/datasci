@@ -1,0 +1,81 @@
+{
+  "build": "hb4cce97_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12"
+  ],
+  "extracted_package_dir": "/home/mani/miniforge3/pkgs/libuuid-2.38.1-hb4cce97_0",
+  "files": [
+    "include/uuid/uuid.h",
+    "lib/libuuid.a",
+    "lib/libuuid.so",
+    "lib/libuuid.so.1",
+    "lib/libuuid.so.1.3.0",
+    "lib/pkgconfig/uuid.pc"
+  ],
+  "fn": "libuuid-2.38.1-hb4cce97_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/mani/miniforge3/pkgs/libuuid-2.38.1-hb4cce97_0",
+    "type": 1
+  },
+  "md5": "000e30b09db0b7c775b21695dff30969",
+  "name": "libuuid",
+  "package_tarball_full_path": "/home/mani/miniforge3/pkgs/libuuid-2.38.1-hb4cce97_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/uuid/uuid.h",
+        "path_type": "hardlink",
+        "sha256": "883bef35f0766a9d520bf9cfde86bea86c1dc47a675f68fae3cb1f2dcbe3088d",
+        "sha256_in_prefix": "883bef35f0766a9d520bf9cfde86bea86c1dc47a675f68fae3cb1f2dcbe3088d",
+        "size_in_bytes": 4041
+      },
+      {
+        "_path": "lib/libuuid.a",
+        "path_type": "hardlink",
+        "sha256": "482196bacfc6535f9fc377f704b15690e9066c0e721a39a894195982ba8033b2",
+        "sha256_in_prefix": "482196bacfc6535f9fc377f704b15690e9066c0e721a39a894195982ba8033b2",
+        "size_in_bytes": 56730
+      },
+      {
+        "_path": "lib/libuuid.so",
+        "path_type": "softlink",
+        "sha256": "d24c261f9b9e8a876655ed71a07c4fc7e9d47852c3d87318519adda149d26c0f",
+        "size_in_bytes": 74944
+      },
+      {
+        "_path": "lib/libuuid.so.1",
+        "path_type": "softlink",
+        "sha256": "d24c261f9b9e8a876655ed71a07c4fc7e9d47852c3d87318519adda149d26c0f",
+        "size_in_bytes": 74944
+      },
+      {
+        "_path": "lib/libuuid.so.1.3.0",
+        "path_type": "hardlink",
+        "sha256": "d24c261f9b9e8a876655ed71a07c4fc7e9d47852c3d87318519adda149d26c0f",
+        "sha256_in_prefix": "d24c261f9b9e8a876655ed71a07c4fc7e9d47852c3d87318519adda149d26c0f",
+        "size_in_bytes": 74944
+      },
+      {
+        "_path": "lib/pkgconfig/uuid.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libuuid_1680112327200/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "46fc24436d72eb941894b9c8609067e198b6a8933623c847f71a79848c302753",
+        "sha256_in_prefix": "44d415a160b3bcd2f72bbcae7465287053ff432df57f497af8640573d8c69168",
+        "size_in_bytes": 1208
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "616277b0c5f7616c2cdf36f6c316ea3f9aa5bb35f2d4476a349ab58b9b91675f",
+  "size": 35720,
+  "subdir": "linux-aarch64",
+  "timestamp": 1680113474000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libuuid-2.38.1-hb4cce97_0.conda",
+  "version": "2.38.1"
+}

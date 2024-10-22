@@ -1,0 +1,31 @@
+{
+  "build": "hf1166c9_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-aarch64",
+  "constrains": [],
+  "depends": [
+    "libstdcxx 14.2.0 h3f4de04_1"
+  ],
+  "extracted_package_dir": "/home/mani/miniforge3/pkgs/libstdcxx-ng-14.2.0-hf1166c9_1",
+  "files": [],
+  "fn": "libstdcxx-ng-14.2.0-hf1166c9_1.conda",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "link": {
+    "source": "/home/mani/miniforge3/pkgs/libstdcxx-ng-14.2.0-hf1166c9_1",
+    "type": 1
+  },
+  "md5": "0e75771b8a03afae5a2c6ce71bc733f5",
+  "name": "libstdcxx-ng",
+  "package_tarball_full_path": "/home/mani/miniforge3/pkgs/libstdcxx-ng-14.2.0-hf1166c9_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9f97461bd55a2745a7a0941f3502a047f15bfe7bb2952dc7fb204b3202f866fd",
+  "size": 54133,
+  "subdir": "linux-aarch64",
+  "timestamp": 1729089498000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-aarch64/libstdcxx-ng-14.2.0-hf1166c9_1.conda",
+  "version": "14.2.0"
+}

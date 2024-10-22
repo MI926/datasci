@@ -1,0 +1,72 @@
+==> 2024-10-18 12:39:04 <==
+# cmd: /home/mani/miniforge3/bin/mamba create -p venv python==3.12
+# conda version: 24.9.2
++conda-forge/linux-aarch64::_openmp_mutex-4.5-2_gnu
++conda-forge/linux-aarch64::bzip2-1.0.8-h68df207_7
++conda-forge/linux-aarch64::ca-certificates-2024.8.30-hcefe29a_0
++conda-forge/linux-aarch64::ld_impl_linux-aarch64-2.43-h80caac9_1
++conda-forge/linux-aarch64::libexpat-2.6.3-h5ad3122_0
++conda-forge/linux-aarch64::libffi-3.4.2-h3557bc0_5
++conda-forge/linux-aarch64::libgcc-14.2.0-he277a41_1
++conda-forge/linux-aarch64::libgcc-ng-14.2.0-he9431aa_1
++conda-forge/linux-aarch64::libgomp-14.2.0-he277a41_1
++conda-forge/linux-aarch64::libnsl-2.0.1-h31becfc_0
++conda-forge/linux-aarch64::libsqlite-3.46.1-hc4a20ef_0
++conda-forge/linux-aarch64::libuuid-2.38.1-hb4cce97_0
++conda-forge/linux-aarch64::libzlib-1.3.1-h86ecc28_2
++conda-forge/linux-aarch64::ncurses-6.5-hcccb83c_1
++conda-forge/linux-aarch64::openssl-3.3.2-h86ecc28_0
++conda-forge/linux-aarch64::python-3.12.0-h43d1f9e_0_cpython
++conda-forge/linux-aarch64::readline-8.2-h8fc344f_1
++conda-forge/linux-aarch64::tk-8.6.13-h194ca79_0
++conda-forge/linux-aarch64::xz-5.2.6-h9cdd2b7_0
++conda-forge/noarch::pip-24.2-pyh8b19718_1
++conda-forge/noarch::setuptools-75.1.0-pyhd8ed1ab_0
++conda-forge/noarch::tzdata-2024b-hc8b5060_0
++conda-forge/noarch::wheel-0.44.0-pyhd8ed1ab_0
+# update specs: ['python==3.12']
+==> 2024-10-18 12:53:07 <==
+# cmd: /home/mani/miniforge3/condabin/conda install -c conda-forge --prefix /home/mani/Downloads/datasci/venv ipykernel -y
+# conda version: 24.9.2
++conda-forge/linux-aarch64::debugpy-1.8.7-py312h6f74592_0
++conda-forge/linux-aarch64::keyutils-1.6.1-h4e544f5_0
++conda-forge/linux-aarch64::krb5-1.21.3-h50a48e9_0
++conda-forge/linux-aarch64::libedit-3.1.20191231-he28a2e2_2
++conda-forge/linux-aarch64::libsodium-1.0.20-h68df207_0
++conda-forge/linux-aarch64::libstdcxx-14.2.0-h3f4de04_1
++conda-forge/linux-aarch64::libstdcxx-ng-14.2.0-hf1166c9_1
++conda-forge/linux-aarch64::psutil-6.0.0-py312hb2c0f52_2
++conda-forge/linux-aarch64::python_abi-3.12-5_cp312
++conda-forge/linux-aarch64::pyzmq-26.2.0-py312h2427ae1_3
++conda-forge/linux-aarch64::tornado-6.4.1-py312h52516f5_1
++conda-forge/linux-aarch64::zeromq-4.3.5-h5efb499_6
++conda-forge/noarch::asttokens-2.4.1-pyhd8ed1ab_0
++conda-forge/noarch::comm-0.2.2-pyhd8ed1ab_0
++conda-forge/noarch::decorator-5.1.1-pyhd8ed1ab_0
++conda-forge/noarch::exceptiongroup-1.2.2-pyhd8ed1ab_0
++conda-forge/noarch::executing-2.1.0-pyhd8ed1ab_0
++conda-forge/noarch::importlib-metadata-8.5.0-pyha770c72_0
++conda-forge/noarch::ipykernel-6.29.5-pyh3099207_0
++conda-forge/noarch::ipython-8.28.0-pyh707e725_0
++conda-forge/noarch::jedi-0.19.1-pyhd8ed1ab_0
++conda-forge/noarch::jupyter_client-8.6.3-pyhd8ed1ab_0
++conda-forge/noarch::jupyter_core-5.7.2-pyh31011fe_1
++conda-forge/noarch::matplotlib-inline-0.1.7-pyhd8ed1ab_0
++conda-forge/noarch::nest-asyncio-1.6.0-pyhd8ed1ab_0
++conda-forge/noarch::packaging-24.1-pyhd8ed1ab_0
++conda-forge/noarch::parso-0.8.4-pyhd8ed1ab_0
++conda-forge/noarch::pexpect-4.9.0-pyhd8ed1ab_0
++conda-forge/noarch::pickleshare-0.7.5-py_1003
++conda-forge/noarch::platformdirs-4.3.6-pyhd8ed1ab_0
++conda-forge/noarch::prompt-toolkit-3.0.48-pyha770c72_0
++conda-forge/noarch::ptyprocess-0.7.0-pyhd3deb0d_0
++conda-forge/noarch::pure_eval-0.2.3-pyhd8ed1ab_0
++conda-forge/noarch::pygments-2.18.0-pyhd8ed1ab_0
++conda-forge/noarch::python-dateutil-2.9.0-pyhd8ed1ab_0
++conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
++conda-forge/noarch::stack_data-0.6.2-pyhd8ed1ab_0
++conda-forge/noarch::traitlets-5.14.3-pyhd8ed1ab_0
++conda-forge/noarch::typing_extensions-4.12.2-pyha770c72_0
++conda-forge/noarch::wcwidth-0.2.13-pyhd8ed1ab_0
++conda-forge/noarch::zipp-3.20.2-pyhd8ed1ab_0
+# update specs: ['ipykernel']
